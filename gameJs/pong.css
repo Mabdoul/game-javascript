@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#gameContainer{
+    text-align: center;
+    background-image: url(Solo-Leveling-Smile-scene-of-the-god-statue-makes-fan-wonder-who-and-what-is-it-1.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+#gameBoard{
+    border: 3px solid;
+    
+    
+}
+#scoreText{
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-size:100px ;
+    color: beige;
+}
+#resetBtn{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    width: 100px;
+    height: 50px;
+    border: 4px solid;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+
+
+}
+#resetBtn:hover{
+    background-color: aqua;
+    border: 2px solid white;
+
+}
+div #gameContainer{
+    height: 100vh;
+}
